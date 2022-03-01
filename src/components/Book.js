@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -35,7 +34,7 @@ const Book = ({ book }) => (
 );
 
 Book.propTypes = {
-  book: PropTypes.objectOf(PropTypes.any),
+  book: PropTypes.instanceOf(Object),
 };
 
 Book.defaultProps = {
