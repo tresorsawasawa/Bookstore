@@ -2,14 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description 
+> "Bookstore" is a simple website that displays a list of books and allows you to add a book to your collection, and remove a book from your collection.
+
 ## Built With
 
 This project is built with:
 
-- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![React](https://img.shields.io/badge/-React-1d1919?style=flat&logo=react)
+- ![Redux](https://img.shields.io/badge/-Redux-1d1919?style=flat&logo=redux)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
-- ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
-- ![Sass](https://img.shields.io/badge/-Sass-000000?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
+- ![HTML](https://img.shields.io/badge/-HT%3CL-1d1919?style=flat&logo=html5)
+- ![Sass](https://img.shields.io/badge/-Sass-1d1919?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
 
 ## Live Demo
 
