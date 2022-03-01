@@ -8,18 +8,18 @@ This project is built with:
 
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
-- ![HTML](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+- ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
 - ![Sass](https://img.shields.io/badge/-Sass-000000?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
 
 ## Live Demo
 
-Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live demo
+Click [here](https://tresorsawasawa.github.io/Bookstore/) to see the live demo
 
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
+- `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
 - `cd math_magicians`
 - `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in your browser
@@ -56,7 +56,7 @@ For tracking linter errors locally you need to follow these steps:
 
 ## :handshake: Contributing
 
-Feel free to check the [issues page](https://github.com/tresorsawasawa/math_magicians/issues)
+Feel free to check the [issues page](https://github.com/tresorsawasawa/Bookstore/issues)
 
 ## Show your support
 
