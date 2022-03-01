@@ -1,6 +1,16 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import BookstoreContainer from './components/BookstoreContainer';
+import Header from './components/Header';
+import Categories from './redux/categories/categories';
+
 const App = () => (
   <div className="App">
-    <h2>Bookstore App</h2>
+    <Header />
+    <Routes>
+      <Route path="/" element={<BookstoreContainer />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
   </div>
 );
 
