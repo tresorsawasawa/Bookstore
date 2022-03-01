@@ -52,7 +52,7 @@ const Form = () => {
             Category
           </option>
           <option value="Action">Action</option>
-          <option value="Science">Science Fiction</option>
+          <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
         </select>
         <button type="submit" onClick={submitBookToStore}>
