@@ -11,8 +11,8 @@ This project is built with:
 
 - ![React](https://img.shields.io/badge/-React-1d1919?style=flat&logo=react)
 - ![Redux](https://img.shields.io/badge/-Redux-1d1919?style=flat&logo=redux)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
-- ![HTML](https://img.shields.io/badge/-HT%3CL-1d1919?style=flat&logo=html5)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-1d1919?style=flat&logo=javascript)
+- ![HTML](https://img.shields.io/badge/-HTML-1d1919?style=flat&logo=html5)
 - ![Sass](https://img.shields.io/badge/-Sass-1d1919?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
 
 ## Live Demo
