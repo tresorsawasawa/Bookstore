@@ -1,0 +1,44 @@
+@import 'variables';
+
+.form-container {
+  padding: 1rem;
+
+  & h2 {
+    margin: 1.813rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: $gray-color;
+  }
+
+  & .form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    & input {
+      width: 60%;
+      padding: 0.81rem 1rem;
+      font-size: 1rem;
+
+      &::placeholder {
+        font-size: 1rem;
+      }
+    }
+
+    .form-control {
+      width: 20%;
+      padding: 0.81rem 1rem;
+      font-size: 1rem;
+    }
+
+    button {
+      max-width: 20%;
+      padding: 0.81rem 1.5rem;
+      cursor: pointer;
+      background-color: $blue-prim-color;
+      color: $white-color;
+      font-size: 1rem;
+      border: none;
+    }
+  }
+}
