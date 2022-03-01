@@ -20,7 +20,7 @@ Click [here](https://tresorsawasawa.github.io/Bookstore/) to see the live demo
 To get the content of this project locally you need to run this command in your terminal:
 
 - `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
-- `cd math_magicians`
+- `cd Bookstore`
 - `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in your browser
 
