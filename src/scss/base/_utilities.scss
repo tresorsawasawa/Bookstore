@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import 'variables';
 
 ::after,
 ::before,
@@ -11,4 +12,16 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: $body-bg-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  // border: solid black;
+  background-color: $white-color;
+  margin-top: -3px;
+  // padding-top: 0.5rem;
 }

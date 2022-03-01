@@ -1,0 +1,30 @@
+@import 'variables';
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $white-color;
+  padding: 1.813rem 6.25rem;
+  // border: solid red;
+
+  & .bookstore-title {
+    color: $blue-prim-color;
+    font-size: 1.875rem;
+  }
+
+  .books-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav-item1 {
+      padding-left: 2.6rem;
+      padding-right: 2.6rem;
+    }
+
+    a {
+      color: $black-prim-color;
+    }
+  }
+}
