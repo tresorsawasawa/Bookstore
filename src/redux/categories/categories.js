@@ -1,9 +1,17 @@
 import React from 'react';
 
-const categories = () => (
-  <div>
-    <h2>Under construction</h2>
-  </div>
-);
+const Categories = () => {
+  const styling = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
 
-export default categories;
+  return (
+    <div style={styling}>
+      <h2>Under construction</h2>
+    </div>
+  );
+};
+
+export default Categories;
