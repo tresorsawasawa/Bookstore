@@ -25,8 +25,16 @@ To get the content of this project locally you need to run this command in your 
 
 - `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
 - `cd Bookstore`
-- `npm install` To download all the dependancies of the project
-- Use `npm start` to run the app in your browser
+- `npm install` 
+  > This will download all the dependancies of the project.
+- `npm start` 
+  > The page will open at http://localhost:3000 in your browser.
+
+### Builds the app for production
+
+`npm run build`
+
+It correctly bundles React in production mode and optimizes the build for the best performance. 
 
 ## Test
 
@@ -40,15 +48,13 @@ For tracking linter errors locally you need to follow these steps:
 
   > `npx hint .`
 
-- For tracking the linterj errors in CSS file run:
+- For tracking the linter errors in CSS file run:
 
   > `npx stylelint "\*_/_.{css,scss}"`
 
 - And For tracking the linter errors in JavaScript file run:
 
   > `npx eslint .`
-
-- Use `npm run build` to run the app in live server
 
 ## Author
 
