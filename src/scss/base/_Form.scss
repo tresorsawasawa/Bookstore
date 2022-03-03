@@ -4,7 +4,7 @@
   padding: 1rem;
 
   & h2 {
-    margin: 1.813rem 0;
+    margin: 1.513rem 0;
     font-size: 1.25rem;
     font-weight: bold;
     color: $gray-color;
@@ -19,6 +19,9 @@
       width: 60%;
       padding: 0.81rem 1rem;
       font-size: 1rem;
+      height: 2.813rem;
+      border-radius: 4px;
+      border: solid 1px $gary-line;
 
       &::placeholder {
         font-size: 1rem;
@@ -29,6 +32,11 @@
       width: 20%;
       padding: 0.81rem 1rem;
       font-size: 1rem;
+      height: 2.813rem;
+      border-radius: 4px;
+      border: solid 1px $gary-line;
+
+      &:focus { border: solid 1px $gary-line; }
     }
 
     button {
@@ -39,6 +47,7 @@
       color: $white-color;
       font-size: 1rem;
       border: none;
+      border-radius: 3px;
     }
   }
 }
