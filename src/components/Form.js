@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
 const Form = () => {
+  const [progress, setProgress] = useState(0);
   const [bookTitle, setBookTitle] = useState('');
   const [bookCategory, setBookCategory] = useState('');
   const dispatch = useDispatch();
@@ -11,19 +13,22 @@ const Form = () => {
     e.preventDefault();
 
     if (bookTitle && bookCategory) {
+      if (progress > 100) return progress;
       const newBook = {
-        id: new Date().getTime().toString(),
+        item_id: uuidv4(),
         title: bookTitle,
         category: bookCategory,
-        author: 'Suzanne Collins',
-        completed: 64,
+        author: 'Tresor Sawasawa',
+        completed: progress,
         currentChapter: 17,
         currentChapterTitle: '',
       };
+      setProgress((progress + Math.floor(Math.random() * 100)));
       dispatch(addBook(newBook));
       setBookTitle('');
       setBookCategory('');
     }
+    return progress;
   };
 
   const handleBookTitle = (e) => setBookTitle(e.target.value);
@@ -48,7 +53,7 @@ const Form = () => {
           onChange={handleBookCategory}
           required
         >
-          <option className="gray-color" disabled value="">
+          <option className="gray-color" value="action" defaultValue hidden>
             Category
           </option>
           <option value="Action">Action</option>
