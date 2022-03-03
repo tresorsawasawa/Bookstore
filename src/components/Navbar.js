@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
-    <ul className="books-list">
+    <ul className="books-list links">
       <li className="nav-item1">
         <NavLink to="/" className={(navData) => (navData.isActive ? 'active-style' : 'none')}>
-          Books
+          BOOKS
         </NavLink>
       </li>
       <li>
         <NavLink to="/categories" className={(navData) => (navData.isActive ? 'active-style' : 'none')}>
-          Categories
+          CATEGORIES
         </NavLink>
       </li>
     </ul>

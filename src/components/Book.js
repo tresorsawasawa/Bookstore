@@ -12,38 +12,54 @@ const Book = ({ book }) => {
 
   return (
     <div className="books-container">
-      <div>
+      <div className="book-col-1">
         <div className="book-category">{book.category}</div>
         <div className="book-title">
-          <h3>{book.title}</h3>
+          <span>{book.title}</span>
         </div>
         <span className="book-author">{book.author}</span>
-      </div>
-
-      <div>
-        <div className="book-completed-chart" />
-        <div className="book-completed">
-          {book.completed}
-          %
+        <div className="remove-btn-container book-btns flex-center-center">
+          <span className="clickable">Comments</span>
+          <div className="sm-line" />
+          <button
+            className="romove-btn clickable"
+            type="button"
+            onClick={(e) => handleClick(e, book.item_id)}
+          >
+            {' '}
+            Remove
+            {' '}
+          </button>
+          <div className="sm-line" />
+          <span className="clickable">Edit</span>
         </div>
-        <div className="book-completed-prefix">completed</div>
       </div>
 
-      <div>
-        <div className="book-current-chapter">Current Chapter</div>
-        <div className="book-current-chapter">
+      <div className="book-col-2 flex-center-center">
+        <div className="book-completed-chart" />
+        <div className="completed-txt-parcent">
+          <span className="completed-parcent">
+            {book.completed}
+            %
+          </span>
+          <div className="completed-text">completed</div>
+        </div>
+      </div>
+
+      <div className="big-line" />
+
+      <div className="book-col-3">
+        <span className="current-chapter-text">CURRENT CHAPTER</span>
+        <div className="current-lesson">
           Chapter
+          {' '}
           {book.currentChapter}
           <span className="book-current-chapter-title">
             {book.currentChapterTitle}
           </span>
         </div>
-      </div>
-      <div className="remove-btn-container">
-        <button type="button" onClick={(e) => handleClick(e, book.item_id)}>
-          {' '}
-          Remove
-          {' '}
+        <button type="button" className="progr-btn clickable">
+          UPDATE PROGRESS
         </button>
       </div>
     </div>
