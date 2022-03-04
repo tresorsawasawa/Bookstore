@@ -6,7 +6,7 @@ const Header = () => (
   <header className="header">
     <h1 className="bookstore-title">Bookstore CMS</h1>
     <Navbar />
-    <div className="user-container flex-center-center">
+    <div className="user-container flex-center-center clickable">
       <FaUser className="user-icon" />
     </div>
   </header>
