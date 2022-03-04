@@ -72,7 +72,7 @@
         border-box;
       background-image:
         linear-gradient($white-color, $white-color),
-        linear-gradient(30deg, #d3d3d3 36%, #d3d3d3 0),
+        linear-gradient(30deg, $chart-light-bg-color 36%, $chart-light-bg-color 0),
         linear-gradient(120deg, $blue-prim-color 36%, $blue-prim-color 0),
         linear-gradient(300deg, $blue-prim-color 36%, $blue-prim-color 0),
         linear-gradient(210deg, $blue-prim-color 36%, $blue-prim-color 0);

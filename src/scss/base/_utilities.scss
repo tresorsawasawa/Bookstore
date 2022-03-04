@@ -48,15 +48,6 @@ a {
   justify-content: center;
 }
 
-.Line-1 {
-  content: '';
-  border-color: red;
-  padding: 10px;
-  width: 0.125rem;
-  height: 4.375rem;
-  border: solid 1px $gary-line;
-}
-
 .sm-line {
   width: 0.125rem;
   height: 1.5rem;
@@ -70,8 +61,6 @@ a {
   margin: 1.125rem 0 0 0;
   border: solid 1px $gary-line;
 }
-
-// .links li a { color: red; }
 
 .links li a.active-style {
   color: $black-prim-color;
