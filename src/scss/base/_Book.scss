@@ -3,10 +3,140 @@
 .books-container {
   display: flex;
   justify-content: space-between;
-  // height: 10.625rem;
-  margin: 0.5rem auto;
-  padding: 2rem 1.688rem;
   border-radius: 4px;
   border: solid 1px $gray-color;
   background-color: $white-color;
+  margin: 2.313rem 1.25rem 0;
+  padding: 1rem 1.688rem;
+
+  & .book-col-1 {
+    max-width: 50%;
+
+    .book-category {
+      margin: 0 2.438rem 0 0;
+      opacity: 0.5;
+      font-family: $Montserrat-font;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: $black-prim-color;
+    }
+
+    .book-title {
+      font-family: $robotoSlab-font;
+      font-size: 1.375rem;
+      letter-spacing: -0.2px;
+      color: $black-prim-color;
+      font-weight: bold;
+      width: 12.313rem;
+    }
+
+    .book-author {
+      font-family: $robotoSlab-font;
+      font-size: 0.875rem;
+      font-weight: 300;
+      color: $blue-secondary-color;
+    }
+
+    .book-btns {
+      margin: 0.188rem 0.938rem 0.125rem 0;
+      justify-content: start;
+      font-family: $blue-secondary-color;
+      font-size: 0.875rem;
+      font-weight: 300;
+      color: $blue-secondary-color;
+
+      .romove-btn {
+        border: none;
+        background-color: transparent;
+        counter-reset: $blue-secondary-color;
+        color: $blue-secondary-color;
+      }
+    }
+  }
+
+  & .book-col-2 {
+    display: flex;
+
+    .book-completed-chart {
+      -webkit-background-clip:
+        content-box,
+        border-box,
+        border-box,
+        border-box,
+        border-box;
+      background-clip:
+        content-box,
+        border-box,
+        border-box,
+        border-box,
+        border-box;
+      background-image:
+        linear-gradient($white-color, $white-color),
+        linear-gradient(30deg, $chart-light-bg-color 36%, $chart-light-bg-color 0),
+        linear-gradient(120deg, $blue-prim-color 36%, $blue-prim-color 0),
+        linear-gradient(300deg, $blue-prim-color 36%, $blue-prim-color 0),
+        linear-gradient(210deg, $blue-prim-color 36%, $blue-prim-color 0);
+      background-origin:
+        content-box,
+        border-box,
+        border-box,
+        border-box,
+        border-box;
+      background-position: 50%, 0 0, 100% 0, 0 100%, 100% 100%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+      border: 6px solid transparent;
+      border-radius: 50%;
+      height: 4.25rem;
+      width: 4.25rem;
+    }
+
+    .completed-txt-parcent {
+      padding-left: 1rem;
+
+      .completed-parcent {
+        font-size: 2rem;
+        color: $black-prim-color;
+        line-height: 1.4rem;
+      }
+
+      .completed-text {
+        color: $black-prim-color;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  & .book-col-3 {
+    padding-top: 0.7rem;
+    font-family: $robotoSlab-font;
+    font-weight: 300;
+
+    .current-chapter-text {
+      opacity: 0.5;
+      font-size: 0.813rem;
+      font-weight: 300;
+      color: $black-prim-color;
+    }
+
+    .current-lesson {
+      width: 4.688rem;
+      height: 1.313rem;
+      font-weight: 300;
+      letter-spacing: -0.4px;
+      color: $black-prim-color;
+      margin: 0.5rem 0 1.2rem 0;
+    }
+
+    .progr-btn {
+      min-width: 20%;
+      padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+      border-radius: 3px;
+      background-color: $blue-prim-color;
+      border: none;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: $white-color;
+    }
+  }
 }

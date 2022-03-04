@@ -1,11 +1,13 @@
 @import 'variables';
 
 .header {
+  width: 100%;
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: $white-color;
-  padding: 1.813rem 6.25rem;
+  padding: 1.813rem 1.3rem 0.3rem 1.3rem;
 
   & .bookstore-title {
     color: $blue-prim-color;
@@ -22,8 +24,22 @@
       padding-right: 2.6rem;
     }
 
-    a {
-      color: $black-prim-color;
+    a { color: $gray-color; }
+  }
+
+  .user-container {
+    position: absolute;
+    right: 40px;
+    width: 2.813rem;
+    height: 2.813rem;
+    padding: 0.875rem;
+    border-radius: 50%;
+    border: solid 1px $gray-color;
+
+    .user-icon {
+      width: 1.2rem;
+      height: 1.2rem;
+      color: $blue-prim-color;
     }
   }
 }

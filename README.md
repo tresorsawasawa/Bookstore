@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description 
+![math-magicians](./src/images/Bookstore_screenshot.png)
+## Description
+
 > "Bookstore" is a simple website that displays a list of books and allows you to add a book to your collection, and remove a book from your collection.
 
 ## Built With
@@ -23,11 +25,11 @@ Click [here](https://tresorsawasawa.github.io/Bookstore/) to see the live demo
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
-- `cd Bookstore`
-- `npm install` 
+1- `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
+2- `cd Bookstore`
+3- `npm install` 
   > This will download all the dependancies of the project.
-- `npm start` 
+4- `npm start` 
   > The page will open at http://localhost:3000 in your browser.
 
 ### Builds the app for production
@@ -75,6 +77,7 @@ Give a :star: if you like this project!
 ## Acknowledgments
 
 - Thanks to everyone who will get time to check this code especially to code reviewers.
+- Thanks [Zeplin](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378) for the template design.
 
 ## 📝 License
 

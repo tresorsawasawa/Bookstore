@@ -55,6 +55,8 @@ const reducer = (state = initialState, action) => {
         const book = action.payload[key][0];
         let progress = 0;
         book.item_id = key;
+        book.author = 'Tresor Sawasawa';
+        book.currentChapter = 17;
         if (!book.completed) {
           progress += Math.floor(Math.random() * 100);
           book.completed = progress;
