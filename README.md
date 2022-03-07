@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![math-magicians](./src/images/Bookstore_screenshot.png)
 ## Description
 
-> "Bookstore" is a simple website that displays a list of books and allows you to add a book to your collection, and remove a book from your collection.
+> "Bookstore" is a simple website built with `REACT` and `REDUX` that displays a list of books from an API and allows you to add and remove books in the API store.
 
 ## Built With
 
