@@ -25,12 +25,12 @@ Click [here](https://tresorsawasawa.github.io/Bookstore/) to see the live demo
 
 To get the content of this project locally you need to run this command in your terminal:
 
-1- `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
-2- `cd Bookstore`
-3- `npm install` 
-  > This will download all the dependancies of the project.
-4- `npm start` 
-  > The page will open at http://localhost:3000 in your browser.
+1. `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
+2. `cd Bookstore`
+3. `npm install` 
+  This will download all the dependancies of the project.
+4. `npm start` 
+  The page will open at http://localhost:3000 in your browser.
 
 ### Builds the app for production
 
