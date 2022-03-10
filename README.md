@@ -23,9 +23,10 @@ Click [here](https://tresorsawasawa.github.io/Bookstore/) to see the live demo
 
 ## Getting Started
 
-To get the content of this project locally you need to run this command in your terminal:
+To get the content of this project locally you need to run this command in your terminal
+Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) and [Node.js](https://nodejs.dev/learn/how-to-install-nodejs) installed in your computer.
 
-1. `git clone hhttps://github.com/tresorsawasawa/Bookstore.git`
+1. `git clone https://github.com/tresorsawasawa/Bookstore.git`
 2. `cd Bookstore`
 3. `npm install` 
   This will download all the dependancies of the project.
