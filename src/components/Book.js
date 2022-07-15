@@ -22,7 +22,7 @@ const Book = ({ book }) => {
           <span className="clickable">Comments</span>
           <div className="sm-line" />
           <button
-            className="romove-btn clickable"
+            className="remove-btn clickable"
             type="button"
             onClick={(e) => handleClick(e, book.item_id)}
           >
